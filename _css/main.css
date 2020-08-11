@@ -1,0 +1,268 @@
+:root {
+    font-size: 70%;
+
+    --color-input-placeholder: rgb(168, 168, 168);
+    --color-select-background: rgb(255, 255, 255);
+    --color-input-text: black;
+    --color-text-primary: rgb(255, 255, 255);
+    --color-button-primary: rgb(123, 218, 46);
+}
+
+@font-face {
+    font-family: audiowide;
+    src: url('_fonts/Audiowide-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body, #page-landing {
+    height: 100%;
+}
+
+body,
+input {
+    font: 500 1.4rem Archivo;
+    color: var(--color-input-placeholder);
+}
+
+select {
+    background: var(--color-select-background);
+}
+
+body {
+    background-image: url('../_assets/fundo-principal.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 25%;
+}
+
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 1.7rem auto;
+    padding: 0.9rem 1.2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--color-text-primary);
+    background-color: rgba(0, 0, 0, 0.4); 
+    border-radius: 0.7rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 1.5rem; 
+}
+
+.header-content h1 {
+    font-family: Audiowide;
+    font-size: 2.2em;
+}
+
+.data-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.9rem;
+    margin-bottom: 1.4rem;
+
+    text-align: center;
+    width: 100%;
+    line-height: 4.9rem;
+}
+
+.input-text {
+    border-radius: 0.7rem;
+    width: 90%;
+    height: 4rem;
+    font-size: 1.8rem;
+    color: var(--color-input-text);   
+}
+
+.input-text::-webkit-input-placeholder {
+    color: var(--color-input-placeholder);
+    font-size: 1.6rem;
+}
+
+input:focus, 
+select:focus {
+    border-color: #0000CD; 
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 9px rgba(102, 175, 233, .6);
+    outline: 0;
+}
+
+.data-input-container button {
+    margin-top: 1.3rem;
+}
+
+.btn-do {
+    background-image: linear-gradient(to right, #0000CD 0, #8B008B 100%);      
+    width: 60%;
+    height: 4rem;
+    padding: 0.8rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    border-radius: 0.7rem;
+    outline: 0;
+    transition: opacity 0.5s;
+}
+
+.btn-do:hover {
+    opacity: 0.6;
+}
+
+.bonus-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 0.7rem 0.8rem 0 0.8rem;
+
+    line-height: 1.4rem;
+}
+
+.bonus-content span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.bonus-content img {
+    width: 1.9rem;
+    height: 1.8rem;
+    margin-right: 1rem;
+}
+
+.bonus-content a {
+    color: white;
+}
+
+
+/* Elementos gerados dinamicamente */
+
+.header-content span {
+    margin-top: 0.9rem;
+}
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 1.2rem;
+    border: 0;
+    border-spacing: 0rem;
+    line-height: 2.4rem;
+    font-family: Poppins;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid white;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+
+#small-calendar {
+    margin-right: 0.7rem;
+}
+
+#btn-logon {
+    background-color: var(--color-button-primary);
+    font-size: 1.7rem;
+    color: var(--color-text-primary);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+    width: 12rem;
+    height: 3.9rem;
+    border-radius: 0.6rem;
+    border: none;
+    outline: 0;
+}
+
+
+@media (min-width: 900px) {
+
+    .input-text {
+        width: 100%;
+    }
+
+    .header-content {
+        font-size: 1.8rem;
+    }
+
+    .header-content h1 {
+        font-size: 4.2rem;
+    }
+
+    .data-input-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 4.6rem;
+    }
+
+    .data-input-container .field {
+        width: 100%;
+    }
+    
+    .btn-do {
+        width: 100%;
+    }
+
+    .bonus-content {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .bonus-content span {
+        flex-direction: column;
+        width: 33%;
+
+        font-size: 1.5rem;
+        margin-right: 1.1rem;
+        align-items: center;
+    }
+
+    .bonus-content img {
+        margin-bottom: 1.2rem;
+        width: 3.8rem;
+        height: 3.6rem;
+    }  
+    
+    /* Media para elementos gerados dinamicamente */
+
+    table {
+        font-size: 1.9rem;
+    }
+
+}
+
+
+

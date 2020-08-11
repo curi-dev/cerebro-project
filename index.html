@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="_css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-landing">
+        <div class="container" id="form">
+            <header>
+                <div class="header-content">
+                    <h1>
+                        Experimente usar o Cérebro.
+                    </h1>
+                </div>
+            </header>
+            <div class="data-input-container" id="load-result-container">
+                <form onsubmit="appController.calculateDailyGoal(event)">                                
+                    <div class="field">
+                        <select class="input-text" id="store-customer-flow" required autofocus>
+                            <option disabled selected hidden id="place-holder" value=""> Selecione uma opção</option>
+                            <option value="ninguem">Loja muito vazia</option>
+                            <option value="gato-pingado">Pouco movimento</option>
+                            <option value="normal">Fluxo normal</option>
+                            <option value="fluindo">Clientes entrando</option>
+                            <option value="explodiu">Loja cheia</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>
+                            <input type="number" class="input-text" id="goal" placeholder=" Seu objetivo mensal" required> 
+                        </label>   
+                    </div>               
+                    <div class="field">
+                        <label>
+                            <input type="number" class="input-text" id="sales" placeholder=" Valor vendido até hoje" required>
+                        </label>
+                        <button type="submit" class="btn-do">Vem diária ideal!</button>
+                    </div>                
+                </form>    
+            </div>        
+            <footer>
+                <div class="bonus-content">
+                    <span>
+                        <img src="_assets/brain-logo.png" alt="logo-pequena">
+                        <p> Obtenha desafios diários de forma dinâmica.</p>
+                    </span>
+                    <span>
+                        <img src="_assets/brain-logo.png" alt="logo-pequena">
+                        <p> Ajude a melhorar o algoritmo do Cérebro informando pra gente o fluxo de clientes, <a href="">Entenda mais.</a></p>
+                    </span>
+                    <span>
+                        <img src="_assets/brain-logo.png" alt="logo-pequena">
+                        <p><a href="">Cadastre-se</a> para uma experiência ainda mais imersiva.</p>
+                    </span>
+                </div>
+            </footer>
+        </div>    
+    </div>           
+        <script src="controllers/AppController.js"></script>
+        <script src="models/DynamicDailyGoal.js"></script>
+        <script src="models/Hint.js"></script> 
+        <script src="views/DataChallenge.js"></script>
+        <script src="views/Header.js"></script>
+        <script src="views/FooterView.js"></script>
+        <script src="services/ClimateWeatherService.js"></script>
+        <script src="helpers/MotivationSentences.js"></script>
+        <script>
+            let appController = new AppController();
+        </script>
+
+</body>
+</html>
+
