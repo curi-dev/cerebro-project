@@ -24,4 +24,8 @@ Ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e si
 - Organização de código
 
 
+<h2> Design </h2>
+
+...
+
 
