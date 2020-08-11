@@ -31,7 +31,7 @@ class DataChallengeView {
             </caption>   
             <tr>
                 <td>Desafio</td>
-                <td>${dailyGoal.calculateDailyChallenge().toLocaleString('pt-BR', {style: 'currency', 'currency': 'BRL'})}</td>
+                <td id='challengeSpot'></td>
             </tr>
             <tr>
                 <td>Diária proporcional</td>

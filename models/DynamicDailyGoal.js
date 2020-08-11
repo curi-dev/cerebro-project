@@ -7,13 +7,12 @@ class DynamicDailyGoal {
         this.accumulatedSales = accumulatedSales;
         this.missingSalesValue = this.saleGoal - this.accumulatedSales; // Tornar todos os atributos privados
         this.proportionalDailyGoal = this.missingSalesValue / this._leftDays();
-        this.goodWeatherForSale = webServiceResponse;
     };
     
     
-    calculateDailyChallenge() {
+    calculateDailyChallenge(weatherCondition) {
         
-        if (this.goodWeatherForSale) {
+        if (weatherCondition) {
             if (this._isWeekend()) {
                 return this.proportionalDailyGoal * 1.40;
             } else if (this._isSunday()) {

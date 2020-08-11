@@ -20,20 +20,22 @@ class AppController {
             return
         }
         
-        this.headerArea.render(); // Render it all together less the challenge container
+        this.headerArea.render(); 
+        const dynamicDailyGoal = this._createDynamicDailyGoal();
+        const projection = dynamicDailyGoal.calculateProjection();
+
+        this.resultArea.render(dynamicDailyGoal);
+        this.footerArea.render(new Hint(projection)) 
 
         this._webServiceCall()
         .then(id => {
-            const isGoodWeatherForSale = this._openWeatherMapIdList();
-            
+            const isGoodWeatherForSale = this._openWeatherMapIdList();  
             return (isGoodWeatherForSale.indexOf(id) != -1);
         })
         .then(response => {
-            const dynamicDailyGoal = this._newDynamicDailyGoal(response);
-            const projection = dynamicDailyGoal.calculateProjection();
-
-            this.resultArea.render(dynamicDailyGoal);
-            this.footerArea.render(new Hint(projection)) // Check if render 
+            const challengeCell = document.querySelector('#challengeSpot');
+            const dailyChallenge = dynamicDailyGoal.calculateDailyChallenge(response);
+            challengeCell.innerHTML = dailyChallenge.toLocaleString('pt-BR', {style: 'currency', 'currency': 'BRL'});    
         })
         .catch(err => {
             console.log(err)
@@ -50,12 +52,11 @@ class AppController {
     };
 
 
-    _newDynamicDailyGoal(response) {
+    _createDynamicDailyGoal() {
         
         return new DynamicDailyGoal(
             this.salesGoalField.value,
             this.accumulatedSalesField.value,
-            response
         )}
 
 
