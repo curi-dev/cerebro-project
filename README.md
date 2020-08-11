@@ -29,7 +29,7 @@ Ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e si
 
 | Aqui | Aqui 2 | Aqui 3 | Aqui 4 | Aqui 5 |
 |:-:|:-:|-|-|-|
-| 1 | 2 | 3 | 4 | 5 |
+| ![captura1](https://user-images.githubusercontent.com/69495523/89857639-016f1300-db73-11ea-8ccd-b137e2174188.png) | ![captura2](https://user-images.githubusercontent.com/69495523/89857641-0207a980-db73-11ea-9c3b-fa5138e80473.png) | 3 | 4 | 5 |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
