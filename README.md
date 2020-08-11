@@ -2,7 +2,7 @@
 
 Primeiro projeto AUTORAL
 
-> Status: em desenvolvimento :warning
+> Status: em desenvolvimento :warning:
 
 # Objetivo da aplicação:
 
