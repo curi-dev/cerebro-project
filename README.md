@@ -30,8 +30,7 @@ Ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e si
 ![captura1](https://user-images.githubusercontent.com/69495523/89857639-016f1300-db73-11ea-8ccd-b137e2174188.png)  
 ![captura2](https://user-images.githubusercontent.com/69495523/89857641-0207a980-db73-11ea-9c3b-fa5138e80473.png)  
 ![captura3](https://user-images.githubusercontent.com/69495523/89857643-0338d680-db73-11ea-9298-36aefdce8665.png) 
-![captura4](https://user-images.githubusercontent.com/69495523/ 89857645-046a0380-db73-11ea-9f9f-14011956abae.png) ![captura5](https://user-images.githubusercontent.com/69495523/ 89857646-05029a00-db73-11ea-9204-66a17e28dc7a.png) 
-
-
+![captura4](https://user-images.githubusercontent.com/69495523/89931138-2e0e4380-dbe2-11ea-9724-8d5a06934134.png)
+![captura5](https://user-images.githubusercontent.com/69495523/89931142-2ea6da00-dbe2-11ea-9ca8-41a4e325f5a1.png)
 
 
