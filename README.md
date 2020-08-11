@@ -1,4 +1,4 @@
-# Cerebro-project => Primeiro projeto AUTORAL
+# Cerebro-project { projeto AUTORAL }
 
 > Status: em desenvolvimento :warning:
 
