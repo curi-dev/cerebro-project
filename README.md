@@ -1,6 +1,4 @@
-# Cerebro-project
-
-Primeiro projeto AUTORAL
+# Cerebro-project => Primeiro projeto AUTORAL
 
 > Status: em desenvolvimento :warning:
 
