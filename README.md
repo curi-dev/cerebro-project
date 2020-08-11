@@ -2,17 +2,17 @@
 
 > Status: em desenvolvimento :warning:
 
-<h2> Objetivo da aplicação </h2>
+<h2> Objetivo da aplicação:</h2>
 
-Ajudar vendedores do varejo a estabelecer uma meta diária de acordo com os seus objetivos de venda.
+Ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e simples.
 
-# Funcionalidades:
+<h2> Funcionalidades:</h2>
 
 - Calcula uma diária de venda com base nos dias restantes e o acumulado de vendas fornecido pelo usuário.
 - Leva em consideração o dia da semana. O desafio é maior nos fins de semana por exemplo.
 - Consome uma API de clima/tempo para atribuir maior ou menor peso de venda para aquele dia.
 
-# Conceitos trabalhados:
+<h2> Conceitos trabalhados:</h2>
 
 - Responsividade (medidas flexíveis)
 - Mobile First
