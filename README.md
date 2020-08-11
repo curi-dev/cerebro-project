@@ -2,7 +2,7 @@
 
 > Status: em desenvolvimento :warning:
 
-# Objetivo da aplicação:
+<h2> Objetivo da aplicação </h2>
 
 Ajudar vendedores do varejo a estabelecer uma meta diária de acordo com os seus objetivos de venda.
 
