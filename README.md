@@ -2,26 +2,28 @@
 
 > Status: em desenvolvimento :warning:
 
-<h2> Objetivo da aplicação:</h2>
 
-Ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e simples.
+<h2> Sobre a aplicação:</h2>
+
+O objetivo desta aplicação é ajudar vendedores do varejo a estabelecer uma meta diária de forma rápida e simples.
+
 
 <h2> Funcionalidades:</h2>
 
-- Calcula uma diária de venda com base nos dias restantes e o acumulado de vendas fornecido pelo usuário.
-- Leva em consideração o dia da semana. O desafio é maior nos fins de semana por exemplo.
-- Consome uma API de clima/tempo para atribuir maior ou menor peso de venda para aquele dia.
+- Calcula uma diária de venda com base nos dias restantes e no acumulado de vendas fornecido pelo usuário.
+- Atribui diferentes pesos a diária de vendas dependendo do dia da semana.
+- Consome uma API de clima/tempo para sugerir maior ou menor valor de venda.
 
-<h2> Conceitos trabalhados:</h2>
 
-- Responsividade (medidas flexíveis)
-- Mobile First
-- JavaScript assíncrono/ Ajax
-- Promises
-- Orientação a objetos/ uso de estrutura de classes
-- Manipulação do DOM com JS
-- MVC
-- Organização de código
+<h2> Conceitos treinados:</h2>
+
+- Responsividade (medidas flexíveis) :heavy_check_mark:
+- Mobile First :heavy_check_mark:
+- JavaScript assíncrono :heavy_check_mark:
+- Promises :heavy_check_mark:
+- Orientação a objetos/ uso de classes :heavy_check_mark:
+- Manipulação do DOM com JS :heavy_check_mark:
+- MVC :heavy_check_mark:
 
 
 <h2> Design </h2>
