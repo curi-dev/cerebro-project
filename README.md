@@ -15,7 +15,7 @@ O objetivo desta aplicação é ajudar vendedores do varejo a estabelecer uma me
 - Consome uma API de clima/tempo para sugerir maior ou menor valor de venda.
 
 
-<h2> Conceitos treinados:</h2>
+<h2> Conceitos treinados :books:</h2>
 
 - Responsividade (medidas flexíveis) :heavy_check_mark:
 - Mobile First :heavy_check_mark:
