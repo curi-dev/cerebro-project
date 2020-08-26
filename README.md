@@ -1,6 +1,7 @@
 # Cerebro-project 
 
 > Status: em desenvolvimento :warning:
+> Level-rate: :star:
 
 
 <h2> Sobre a aplicação:</h2>
